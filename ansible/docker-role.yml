@@ -1,0 +1,6 @@
+---
+- hosts: "{{ env }}"
+  become: yes
+  roles:
+    - docker
+    
